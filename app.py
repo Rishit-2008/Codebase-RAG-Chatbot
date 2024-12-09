@@ -116,7 +116,7 @@ def perform_rag(query):
     )
     return llm_response.choices[0].message.content
 
-# Streamlit interface
+# UI
 st.set_page_config(page_title="Codebase RAG Chatbot", layout="wide")
 
 st.title("Codebase RAG Chatbot")
